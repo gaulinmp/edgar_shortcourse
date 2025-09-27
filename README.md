@@ -19,6 +19,9 @@ Outline:
 
 ## 2: [Python](notebooks/2_Python.ipynb)
 
+<a href="https://colab.research.google.com/github/gaulinmp/edgar_shortcourse/blob/master/notebooks/2_Python.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 Walk through the basics of Python, and end with extracting simple count data from text with regular expressions.
 
 Outline:
@@ -33,6 +36,9 @@ Outline:
 
 ## 3: [Scraping](notebooks/3_Scraping.ipynb)
 
+<a href="https://colab.research.google.com/github/gaulinmp/edgar_shortcourse/blob/master/notebooks/3_Scraping.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 Introduce EDGAR, and the library to download/analyze EDGAR filings ([pyEDGAR](https://github.com/gaulinmp/pyedgar)).
 View the data, introduce the basics of HTML ([BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)), typical filing format, and extracting data from the [DOM](https://www.w3schools.com/js/js_htmldom.asp).
 
@@ -44,7 +50,10 @@ Outline:
   1. Homework on analysing HTML documents ([answers](notebooks/3a_Scraping-answers.ipynb))
   
 
-## 3: [Bulk Scraping](notebooks/4_Bulk_Scraping.ipynb)
+## 4: [Bulk Scraping](notebooks/4_Bulk_Scraping.ipynb)
+
+<a href="https://colab.research.google.com/github/gaulinmp/edgar_shortcourse/blob/master/notebooks/4_Bulk_Scraping.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 Introduce [DataFrames](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html), and looping over them.
 Provide simple scraping loop structure for convenience.
@@ -56,3 +65,22 @@ Outline:
   1. Scraping loop framework
   1. Result aggregation and saving to disk
   1. Parallelization example
+
+## 5: [Text to Regressions](notebooks/5_Text_to_Regressions.ipynb)
+
+<a href="https://colab.research.google.com/github/gaulinmp/edgar_shortcourse/blob/master/notebooks/5_Text_to_Regressions.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+Walk through converting text data to regression data.
+Outline:
+
+1. Cache text for LDA analysis
+2. Perform LDA
+    1. Make dictionary / TF-IDF model
+        1. Dictionary
+        2. BOW Corpus
+        3. TFIDF Corpus
+    2. Train LDA
+3. Test LDA
+4. Regressions
+5. Plotting
